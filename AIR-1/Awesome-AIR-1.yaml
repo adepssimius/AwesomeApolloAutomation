@@ -2,4 +2,12 @@ packages:
   ApolloAutomation.AIR-1: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1_BLE.yaml
   start-light-mac-hex-code: !include components/start-light-mac-hex-code.yaml
   wet-bulb-temperature: !include components/wet-bulb-temperature.yaml
-  
+
+sensor:
+  - platform: scd4x
+    id: !extend scd40
+    update_interval: 20s
+
+  - platform: sen5x
+    id: !extend sen55
+    update_interval: 20s
