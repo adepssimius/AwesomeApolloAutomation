@@ -1,0 +1,5 @@
+packages:
+  ApolloAutomation.AIR-1: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1_BLE.yaml
+  start-light-mac-hex-code: !include components/start-light-mac-hex-code.yaml
+  wet-bulb-temperature: !include components/wet-bulb-temperature.yaml
+  
