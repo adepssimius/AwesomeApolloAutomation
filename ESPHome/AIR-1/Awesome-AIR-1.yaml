@@ -1,5 +1,8 @@
 packages:
-  ApolloAutomation.AIR-1: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1_BLE.yaml
+  # ApolloAutomation.AIR-1: github://ApolloAutomation/AIR-1/Integrations/ESPHome/AIR-1_BLE.yaml
+  ApolloAutomation.AIR-1: 
+    url: https://github.com/Adepssimius/AIR-1/Integrations/ESPHome/AIR-1_BLE.yaml
+    ref: ble-add-logger
   start-light-mac-hex-code: !include components/start-light-mac-hex-code.yaml
   wet-bulb-temperature: !include components/wet-bulb-temperature.yaml
 
